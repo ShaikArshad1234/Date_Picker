@@ -1,0 +1,27 @@
+.specific-days,
+.nth-day {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.specific-days label,
+.nth-day label {
+  font-weight: bold;
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.specific-days input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+.nth-day input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px; 
+}
